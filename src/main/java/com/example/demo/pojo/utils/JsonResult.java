@@ -58,6 +58,11 @@ public class JsonResult<T> {
         return new JsonResult<>(200,"ok");
     }
 
+    /**
+     * 直接返回错误信息
+     * @param msg
+     * @return
+     */
     public static JsonResult<String> errorMsg(String msg) {
         return new JsonResult<>(500,msg);
     }
@@ -68,6 +73,10 @@ public class JsonResult<T> {
         this.data = data;
     }
 
+    /**
+     * 直接返回范型对象
+     * @param result
+     */
     private JsonResult(T result) {
         this.status = 200;
         this.msg="ok";

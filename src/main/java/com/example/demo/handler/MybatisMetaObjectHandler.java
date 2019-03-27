@@ -16,7 +16,6 @@ public class MybatisMetaObjectHandler implements MetaObjectHandler {
 
     /**
      * 新增填充
-     *
      * @param metaObject meta
      */
     @Override
@@ -42,7 +41,6 @@ public class MybatisMetaObjectHandler implements MetaObjectHandler {
 
     /**
      * 修改填充
-     *
      * @param metaObject meta
      */
     @Override
