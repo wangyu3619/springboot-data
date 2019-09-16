@@ -1,5 +1,6 @@
 package com.example.demo.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import java.io.Serializable;
@@ -16,6 +17,7 @@ public class BaseEntity implements Serializable {
     private long id;
 
     @TableField(value = "create_time", fill = FieldFill.INSERT)
+    @JSONField(format = "yyyy-MM-dd hh:MM:ss SSS")
     private Date createTime;
 
     @TableField(value = "modify_time", fill = FieldFill.INSERT_UPDATE)
