@@ -23,7 +23,7 @@
         <plexus-build-api.version>0.0.7</plexus-build-api.version>
         <jackson-module-scala.version>2.9.1</jackson-module-scala.version>
         <commons-lang.version>3.1</commons-lang.version>
-        <fastjson.version>1.2.49</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <swagger2.version>2.7.0</swagger2.version>
         <hutool.version>4.1.14</hutool.version>
     </properties>
